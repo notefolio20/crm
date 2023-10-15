@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 보람가족 - 영업관리 CRM </title>
+    <meta name="description" content="보람가족 - 영업관리 CRM">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/pretendard.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="all and (min-width: 650px)">
+    <link rel="stylesheet" href="./css/style-mobile.css" type="text/css" media="all and (max-width: 649.9px)">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="./lib/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./js/wow.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.5/countUp.min.js" ></script>
+  
+  <script>
+    'use strict';
+  
+    new WOW().init();
+    
+  </script>
+</head>
+
+<body class="sub">
+    <div id="wrap" class="login">
+
+        <!-- content start -->
+
+        <header>
+        <div class="header_inner animated wow fadeInUp delay-01s">
+            <h1><a href="./index.html"><img src="./images/logo_w.svg" alt="보람가족 로고"></a></h1>
+        </div>
+        </header>
+        <section id="contents_wrap" class="clearfix">
+            <div class="login_wrap">
+            <p class="title">영업관리</p>
+                <div class="login_id">
+                    <input type="text" name="id" placeholder="아이디 (사번)" minlength="5" maxlength="12" required="required" data-valid-name="아이디"/>
+                </div>
+                <div class="login_pw">
+                    <input type="password" name="pw" placeholder="비밀번호" minlength="8" maxlength="20" required="required" data-valid-name="비밀번호"/>
+                </div>
+                <div class="login_check">
+                    <input type="checkbox"><label for="chk_autologin"> 기억하기</label>
+                </div>
+                <div class="login_btn">
+                    <button type="button" >
+                        LOGIN
+                    </button>
+                    <p>
+                        사번을 모르시는 경우 <span><a href="http://g.boram.com" target="_blank">보람 그룹웨어</a></span> 마이페이지 또는<br /> 인사팀(02-6003-1579)에 문의 바랍니다. 
+                    </p>
+                </div>
+            </div>
+        </section>  
+        <!-- content end -->
+    </div> <!-- wrap end -->
+</body>
+
+</html>
